@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SNK RP - Boutique & Serveur</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Header -->
+  <header class="bg-gray-800 p-6 shadow-lg">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">SNK RP</h1>
+      <nav class="space-x-6">
+        <a href="#" class="hover:text-yellow-400">Accueil</a>
+        <a href="#boutique" class="hover:text-yellow-400">Boutique</a>
+        <a href="#rejoindre" class="hover:text-yellow-400">Rejoindre</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Accueil -->
+  <section class="py-16 text-center bg-cover bg-center" style="background-image: url('https://cdn.wallpapersafari.com/95/4/yWT0hd.jpg');">
+    <div class="bg-black bg-opacity-60 py-20 px-4">
+      <h2 class="text-4xl font-bold mb-4">Bienvenue sur le serveur GMod SNK</h2>
+      <p class="text-lg mb-6 max-w-2xl mx-auto">Rejoignez une expérience unique dans l'univers de Shingeki no Kyojin, entre batailles épiques et RP intense.</p>
+      <a href="#rejoindre" class="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-3 rounded-xl font-semibold">Rejoindre le serveur</a>
+    </div>
+  </section>
+
+  <!-- Boutique -->
+  <section id="boutique" class="py-20 max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-10 text-center">Boutique</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <!-- Article 1 -->
+      <div class="bg-gray-800 rounded-xl p-6 shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Grade Légion</h3>
+        <p class="mb-4">Accès à un skin exclusif, double salaire RP, slot prioritaire.</p>
+        <p class="text-yellow-400 font-bold text-lg mb-4">8€</p>
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded">Acheter</button>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="bg-gray-800 rounded-xl p-6 shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Titan Jouable</h3>
+        <p class="mb-4">Incarnez un Titan en RP, accès à un système spécial validé par le staff.</p>
+        <p class="text-yellow-400 font-bold text-lg mb-4">12€</p>
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded">Acheter</button>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="bg-gray-800 rounded-xl p-6 shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">RP Unique</h3>
+        <p class="mb-4">Créez votre propre arc narratif avec l’aide du staff.</p>
+        <p class="text-yellow-400 font-bold text-lg mb-4">5€</p>
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded">Acheter</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rejoindre -->
+  <section id="rejoindre" class="py-20 bg-gray-800 text-center px-4">
+    <h2 class="text-3xl font-bold mb-6">Rejoindre le serveur</h2>
+    <p class="text-lg mb-6">IP du serveur : <span class="font-mono bg-gray-700 px-2 py-1 rounded">snk.gmodserver.fr</span></p>
+    <a href="https://discord.gg/TONDISCORD" target="_blank" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl text-white font-semibold">Rejoindre le Discord</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-gray-400">
+    <p>&copy; 2025 SNK RP | Site développé pour la communauté</p>
+  </footer>
+</body>
+</html>
